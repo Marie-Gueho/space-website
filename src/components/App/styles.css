@@ -1,9 +1,63 @@
 .app {
-  width: 500px;
-  margin: 1em auto;
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/home/background-home-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 
-.app img {
-  max-width: 150px;
+.app-main {
+  display: flex;
+  justify-content: space-around;
+  color: #D0D6F9;
+  font-weight: 100;
+  width: 100%;
+  margin-top: 18rem;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 1.8rem;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+}
+
+.app-title-span {
+  color: white;
+  font-size: 10rem;
+  font-weight: normal;
+  font-family: 'Bellefair', serif;
+  margin-top: 2rem;
+}
+
+.app-content {
+  margin-top: 2rem;
+  line-height: 32px;
+  font-size: 1.1rem;
+
+}
+
+.app-button {
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Bellefair', serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  width: 274px;
+  height: 274px;
 }
