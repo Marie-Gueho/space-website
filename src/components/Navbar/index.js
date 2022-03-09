@@ -7,10 +7,10 @@ const Navbar = () => (
   <nav className="nav">
     <img src={logo} alt="logo" />
     <ul className="nav-list">
-      <li className="nav-item">00 HOME</li>
-      <li className="nav-item">01 DESTINATION</li>
-      <li className="nav-item">02 CREW</li>
-      <li className="nav-item">03 TECHNOLOGY</li>
+      <li className="nav-item"><span>00</span> HOME</li>
+      <li className="nav-item"><span>01</span> DESTINATION</li>
+      <li className="nav-item"><span>02</span> CREW</li>
+      <li className="nav-item"><span>03</span> TECHNOLOGY</li>
     </ul>
   </nav>
 );

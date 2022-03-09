@@ -26,3 +26,7 @@
 .nav-item {
   letter-spacing: 2px;
 }
+
+.nav-item span {
+  font-weight: bold;
+}

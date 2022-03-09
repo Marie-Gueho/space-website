@@ -11,11 +11,12 @@
 
 .app-main {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: #D0D6F9;
   font-weight: 100;
-  width: 100%;
-  margin-top: 18rem;
+  width: 72%;
+  margin: 0 auto;
+  margin-top: 20rem;
 }
 
 .app-header {
@@ -46,10 +47,12 @@
   margin-top: 2rem;
   line-height: 32px;
   font-size: 1.1rem;
+  letter-spacing: 1px;
 
 }
 
 .app-button {
+  align-self: end;
   border: none;
   border-radius: 50%;
   background-color: white;
