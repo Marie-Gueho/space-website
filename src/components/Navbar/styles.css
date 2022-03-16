@@ -5,10 +5,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  padding-right: 7rem;
+  padding-right: 0;
   padding-left: 4rem;
-  background-color: #0b0d172a;
-  backdrop-filter: blur(35px);
   color: white;
   position: absolute;
   width: 100vw;
@@ -18,9 +16,11 @@
 }
 
 .nav-list {
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: space-evenly;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
 }
 
 .nav-item {

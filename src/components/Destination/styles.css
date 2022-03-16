@@ -1,0 +1,82 @@
+.destination-container {
+  background-image: url(../../assets/destination/background-destination-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.destination-title {
+
+}
+
+.destination-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+}
+
+.destination-nav-link {
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.destination-nav-link--active {
+  border-bottom: 2px solid white;
+}
+
+.destination-title {
+  padding-bottom: 1rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.destination-title span {
+  color: grey;
+  margin-right: 1rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.destination-section {
+  width: 70%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 25vh;
+  justify-content: space-between;
+}
+
+.destination-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.destination-right {
+  width: 35%;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.destination-right h2 {
+  font-family: 'Bellefair', serif;
+  font-weight: 200;
+  font-size: 7rem;
+  margin-bottom: 3rem;
+}
+
+.destination-right p {
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+

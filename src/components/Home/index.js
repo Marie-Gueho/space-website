@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 // == Composant
@@ -12,7 +13,8 @@ const Home = () => (
         because we’ll give you a truly out of this world experience!
       </p>
     </section>
-    <button className="app-button" type="button">Explore</button>
+    <Link className="app-button" to="/destination/">Explore</Link>
+
   </main>
 );
 

@@ -41,8 +41,10 @@
 }
 
 .app-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   align-self: end;
-  border: none;
   border-radius: 50%;
   background-color: white;
   color: black;
@@ -52,4 +54,9 @@
   letter-spacing: 2px;
   width: 274px;
   height: 274px;
+}
+
+.app-button:hover {
+  box-shadow: -2px 0px 0px 76px rgb(0 0 0 / 25%);
+  transition: 1s;
 }
