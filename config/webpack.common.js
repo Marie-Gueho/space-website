@@ -41,7 +41,7 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      favicon: paths.assets + '/favicon.ico',
+      favicon: paths.assets + '/favicon-32x32.png',
       template: paths.assets + '/index.html',
     }),
   ],

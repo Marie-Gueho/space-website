@@ -25,6 +25,11 @@
 
 .nav-item {
   letter-spacing: 2px;
+  line-height: 5.7rem;
+}
+
+.nav-item--active {
+  border-bottom: 2px solid white;
 }
 
 .nav-item span {
