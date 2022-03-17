@@ -19,7 +19,7 @@ const Navbar = () => {
         <NavLink className={getActiveClassname} to="/crew">
           <span>02</span> CREW
         </NavLink>
-        <NavLink className={getActiveClassname} to="technology">
+        <NavLink className={getActiveClassname} to="/technology">
           <span>03</span> TECHNOLOGY
         </NavLink>
       </ul>

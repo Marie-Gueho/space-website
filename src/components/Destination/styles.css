@@ -7,7 +7,7 @@
 }
 
 .destination-title {
-
+  margin-bottom: 5rem;
 }
 
 .destination-nav {
@@ -22,6 +22,7 @@
 .destination-nav-link {
   cursor: pointer;
   margin-bottom: 1rem;
+  font-weight: 200;
 }
 
 .destination-nav-link--active {
@@ -78,5 +79,36 @@
   letter-spacing: 2px;
   font-size: 1.2rem;
   font-weight: 200;
+  margin-bottom: 2rem;
 }
 
+.dest-infos {
+  margin-top: 1rem;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.dest-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  font-family: 'Bellefair', serif;
+}
+
+.dest-info p:nth-of-type(1) {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.dest-info p:nth-of-type(2) {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.dest-separator {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
