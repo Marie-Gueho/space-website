@@ -25,6 +25,10 @@
   font-weight: 200;
 }
 
+.destination-nav-link:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.548);
+}
+
 .destination-nav-link--active {
   border-bottom: 2px solid white;
 }

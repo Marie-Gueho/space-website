@@ -4,24 +4,27 @@
 import { useState } from 'react';
 import './styles.css';
 
-import {
-  Link,
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import destinations from './datas.json';
 
 // == Composant
 const Destination = () => {
   const [activeSection, setActiveSection] = useState('moon');
-  const currentSection = destinations.find((e) => e.destination === activeSection);
+  const currentSection = destinations.find(
+    (e) => e.destination === activeSection,
+  );
 
-  const activeClass = (arg) => (activeSection === arg ? 'destination-nav-link destination-nav-link--active' : 'destination-nav-link');
+  const activeClass = (arg) => (activeSection === arg
+    ? 'destination-nav-link destination-nav-link--active'
+    : 'destination-nav-link');
 
   return (
     <main className="destination-container">
-
       <section className="destination-section">
-        <h1 className="destination-title"><span>01</span>PICK YOUR DESTINATION</h1>
+        <h1 className="destination-title">
+          <span>01</span>PICK YOUR DESTINATION
+        </h1>
         <section className="destination-content">
           <article>
             <img
@@ -35,6 +38,7 @@ const Destination = () => {
                 <Link
                   className={activeClass(e.destination)}
                   to={e.destination}
+                  key={e.destination}
                   onClick={() => setActiveSection(e.destination)}
                 >
                   {e.destination.toUpperCase()}
@@ -54,7 +58,6 @@ const Destination = () => {
                 <p>{currentSection.travelTime.toUpperCase()}</p>
               </div>
             </section>
-
           </article>
         </section>
       </section>
